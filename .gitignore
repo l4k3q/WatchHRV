@@ -1,0 +1,11 @@
+.DS_Store
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcuserdatad/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+.env
+.env.*
+*.p12
+*.mobileprovision

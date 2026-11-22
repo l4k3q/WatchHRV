@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		D91971C62391AA11F3781B9A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ContentView.swift;
+			sourceTree = "<group>";
+		};
+		9D136C993BAD7FEC19309D7B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = HRVManager.swift;
+			sourceTree = "<group>";
+		};
+		D08E1E0F2C0451298D0891A1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = HealthKitService.swift;
+			sourceTree = "<group>";
+		};
+		7C9998E1959DFCF6B5AF7EC5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = StressEstimator.swift;
+			sourceTree = "<group>";
+		};
+		539F4ECB624223F5578DAE51 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = WatchHRVApp.swift;
+			sourceTree = "<group>";
+		};
+		F32D71E3585780E2D64A79D9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			path = WatchHRV.entitlements;
+			sourceTree = "<group>";
+		};
+		DBCC003D9718E2A8558B5538 = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		FDE1B6AE734B4384743A5F5B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = WatchHRVWatchApp.swift;
+			sourceTree = "<group>";
+		};
+		F9707ED5E0854E25543CDE93 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = WorkoutHeartRateMonitor.swift;
+			sourceTree = "<group>";
+		};
+		B42767CD87BC2ED2F686857D = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			path = "WatchHRV Watch App.entitlements";
+			sourceTree = "<group>";
+		};
+		0FE2C33070F3932A43E21ABF = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		A02653A6C849F737704AF37A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = main.swift;
+			sourceTree = "<group>";
+		};
+		6D2457322384AB8CE2E744C6 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = WatchHRV.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AA5A272849FDE7670E4FA12B = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = "WatchHRV Watch App.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FB875EFBA21C94B2FD8F1E1C = {
+			isa = PBXGroup;
+			children = (
+				D91971C62391AA11F3781B9A,
+				9D136C993BAD7FEC19309D7B,
+				D08E1E0F2C0451298D0891A1,
+				7C9998E1959DFCF6B5AF7EC5,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F6BD826E99D6139E426F27C8 = {
+			isa = PBXGroup;
+			children = (
+				539F4ECB624223F5578DAE51,
+				F32D71E3585780E2D64A79D9,
+				DBCC003D9718E2A8558B5538,
+			);
+			path = WatchHRV;
+			sourceTree = "<group>";
+		};
+		10732004AC08DF1196F51544 = {
+			isa = PBXGroup;
+			children = (
+				FDE1B6AE734B4384743A5F5B,
+				F9707ED5E0854E25543CDE93,
+				B42767CD87BC2ED2F686857D,
+				0FE2C33070F3932A43E21ABF,
+			);
+			path = "WatchHRV Watch App";
+			sourceTree = "<group>";
+		};
+		D02ADA8F0516EB247EAF8E45 = {
+			isa = PBXGroup;
+			children = (
+				A02653A6C849F737704AF37A,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C96A533C002CB8C6E5EC565B = {
+			isa = PBXGroup;
+			children = (
+				6D2457322384AB8CE2E744C6,
+				AA5A272849FDE7670E4FA12B,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55079DDF726379651E0C9535 = {
+			isa = PBXGroup;
+			children = (
+				FB875EFBA21C94B2FD8F1E1C,
+				F6BD826E99D6139E426F27C8,
+				10732004AC08DF1196F51544,
+				D02ADA8F0516EB247EAF8E45,
+				C96A533C002CB8C6E5EC565B,
+			);
+			sourceTree = "<group>";
+		};
+		56404D4C73B6AF2BD2839B45 = {
+			isa = PBXBuildFile;
+			fileRef = D91971C62391AA11F3781B9A;
+		};
+		0F9BFE6683B332DAA0E7C7F2 = {
+			isa = PBXBuildFile;
+			fileRef = 9D136C993BAD7FEC19309D7B;
+		};
+		226F4D4586C1A93254DE95DC = {
+			isa = PBXBuildFile;
+			fileRef = D08E1E0F2C0451298D0891A1;
+		};
+		C538F7585E91146AA7C710EB = {
+			isa = PBXBuildFile;
+			fileRef = 7C9998E1959DFCF6B5AF7EC5;
+		};
+		EB71F13FD71B4FE18BA9500B = {
+			isa = PBXBuildFile;
+			fileRef = 539F4ECB624223F5578DAE51;
+		};
+		83CA88F1F83374D4B8FC64CE = {
+			isa = PBXBuildFile;
+			fileRef = D91971C62391AA11F3781B9A;
+		};
+		12012D6F950D79975E8F8BD0 = {
+			isa = PBXBuildFile;
+			fileRef = 9D136C993BAD7FEC19309D7B;
+		};
+		0A4A34752C4299C32A79535C = {
+			isa = PBXBuildFile;
+			fileRef = D08E1E0F2C0451298D0891A1;
+		};
+		91E0D0504BE558D7AF172136 = {
+			isa = PBXBuildFile;
+			fileRef = 7C9998E1959DFCF6B5AF7EC5;
+		};
+		B382D3A9A498A0B1D53F0C2D = {
+			isa = PBXBuildFile;
+			fileRef = FDE1B6AE734B4384743A5F5B;
+		};
+		1F358F0C86D4623B91DB86EA = {
+			isa = PBXBuildFile;
+			fileRef = F9707ED5E0854E25543CDE93;
+		};
+		92519EBA0A8E521B7478BDAB = {
+			isa = PBXBuildFile;
+			fileRef = DBCC003D9718E2A8558B5538;
+		};
+		41D3B7178EFCC48D0687D8AD = {
+			isa = PBXBuildFile;
+			fileRef = 0FE2C33070F3932A43E21ABF;
+		};
+		8A3D8ED5E6A3D1F8E9D2AF4D = {
+			isa = PBXBuildFile;
+			fileRef = AA5A272849FDE7670E4FA12B;
+			settings = {
+				ATTRIBUTES = (
+					RemoveHeadersOnCopy,
+				);
+			};
+		};
+		B35713561D9EA051B2FD5BDF = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56404D4C73B6AF2BD2839B45,
+				0F9BFE6683B332DAA0E7C7F2,
+				226F4D4586C1A93254DE95DC,
+				C538F7585E91146AA7C710EB,
+				EB71F13FD71B4FE18BA9500B,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5736A4C82F4E579C10BA02C = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CA88F1F83374D4B8FC64CE,
+				12012D6F950D79975E8F8BD0,
+				0A4A34752C4299C32A79535C,
+				91E0D0504BE558D7AF172136,
+				B382D3A9A498A0B1D53F0C2D,
+				1F358F0C86D4623B91DB86EA,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D78CD340F7E4414FF139121 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92519EBA0A8E521B7478BDAB,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53A404167E8DD502A14E2AD = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D3B7178EFCC48D0687D8AD,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3374B401C09E1C177312CB7 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11109DC80DAEC2AC6F638C9B = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2BDB35ACF87ECF97EFC7F8 = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8A3D8ED5E6A3D1F8E9D2AF4D,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C784A75D51E1A1CD69779A = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62B01E71236E6577344213D9;
+			proxyType = 1;
+			remoteGlobalIDString = B2980C5D30A8970B00CD2A33;
+			remoteInfo = "WatchHRV Watch App";
+		};
+		832781A00C5C043929FC20E0 = {
+			isa = PBXTargetDependency;
+			target = B2980C5D30A8970B00CD2A33;
+			targetProxy = C6C784A75D51E1A1CD69779A;
+		};
+		E7038C49A1FD3879D8A4404D = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WJJ8C7CNLZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = -Onone;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		DF44E31357612061474C09A5 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				DEVELOPMENT_TEAM = WJJ8C7CNLZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		C710D00F2686416072034FBA = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WatchHRV/WatchHRV.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJJ8C7CNLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchHRV;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "读取心率、HRV、活动及睡眠记录，用于分析个人生理状态并过滤睡眠期间的心率。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lake.WatchHRV2026A5F9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AC4A0B294B9EE5407B3E26B = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WatchHRV/WatchHRV.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJJ8C7CNLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchHRV;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "读取心率、HRV、活动及睡眠记录，用于分析个人生理状态并过滤睡眠期间的心率。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lake.WatchHRV2026A5F9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		274CF15B9A9043B9C59FB0AF = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WatchHRV Watch App/WatchHRV Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJJ8C7CNLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchHRV;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "WatchHRV 读取心率、HRV、步数、睡眠、正念及运动记录，用于建立日间个人基线并分析生理变化。";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "仅在你主动开始运动心率采集后，WatchHRV 会创建并保存对应的运动记录。";
+				INFOPLIST_KEY_WKBackgroundModes = (
+					workout-processing,
+				);
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.lake.WatchHRV2026A5F9;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lake.WatchHRV2026A5F9.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		69F6AE5B3804FEDD96627A17 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WatchHRV Watch App/WatchHRV Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJJ8C7CNLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchHRV;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "WatchHRV 读取心率、HRV、步数、睡眠、正念及运动记录，用于建立日间个人基线并分析生理变化。";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "仅在你主动开始运动心率采集后，WatchHRV 会创建并保存对应的运动记录。";
+				INFOPLIST_KEY_WKBackgroundModes = (
+					workout-processing,
+				);
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.lake.WatchHRV2026A5F9;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lake.WatchHRV2026A5F9.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		1B1C6F6F78ACB87665C3225C = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7038C49A1FD3879D8A4404D,
+				DF44E31357612061474C09A5,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB11A668E896DD7DC88C088 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C710D00F2686416072034FBA,
+				2AC4A0B294B9EE5407B3E26B,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9387A4AFEE005768915628AE = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274CF15B9A9043B9C59FB0AF,
+				69F6AE5B3804FEDD96627A17,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2980C5030A8970900CD2A33 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB11A668E896DD7DC88C088;
+			buildPhases = (
+				B35713561D9EA051B2FD5BDF,
+				A3374B401C09E1C177312CB7,
+				0D78CD340F7E4414FF139121,
+				0C2BDB35ACF87ECF97EFC7F8,
+			);
+			buildRules = ();
+			dependencies = (
+				832781A00C5C043929FC20E0,
+			);
+			name = WatchHRV;
+			productName = WatchHRV;
+			productReference = 6D2457322384AB8CE2E744C6;
+			productType = com.apple.product-type.application;
+		};
+		B2980C5D30A8970B00CD2A33 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9387A4AFEE005768915628AE;
+			buildPhases = (
+				F5736A4C82F4E579C10BA02C,
+				11109DC80DAEC2AC6F638C9B,
+				F53A404167E8DD502A14E2AD,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = "WatchHRV Watch App";
+			productName = "WatchHRV Watch App";
+			productReference = AA5A272849FDE7670E4FA12B;
+			productType = com.apple.product-type.application;
+		};
+		62B01E71236E6577344213D9 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2720;
+				LastSwiftUpdateCheck = 2720;
+				TargetAttributes = {
+					B2980C5030A8970900CD2A33 = {
+						CreatedOnToolsVersion = 27.2;
+					};
+					B2980C5D30A8970B00CD2A33 = {
+						CreatedOnToolsVersion = 27.2;
+					};
+				};
+			};
+			buildConfigurationList = 1B1C6F6F78ACB87665C3225C;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55079DDF726379651E0C9535;
+			productRefGroup = C96A533C002CB8C6E5EC565B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2980C5030A8970900CD2A33,
+				B2980C5D30A8970B00CD2A33,
+			);
+		};
+	};
+	rootObject = 62B01E71236E6577344213D9;
+}
